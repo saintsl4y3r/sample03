@@ -1,0 +1,238 @@
+/*
+Theme Name: Web Khoi Nghiep
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+@font-face{font-family:'svn-haptic_scriptregular';src:url("fonts/svn-haptic-script.otf") format("opentype")}
+.post-item .box-image,.post-item img{
+    border-radius: 15px;
+}
+.section-khach-hang .text-testimonial p:before{
+    content: "";
+    background-image: url(//bizweb.dktcdn.net/100/427/775/themes/843442/assets/dau-hoi.png?1624413099846);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5px;
+    left: -75px;
+    width: 68px;
+    height: 51px;
+    background-size: contain;
+}
+.slide-dich-vu .icon-box{
+        background: #fff;
+    padding: 40px 20px;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.block-giua .icon-box{
+
+}
+.absolute-footer{
+    display: none;
+}
+.section-dich-vu:before {
+    content: "";
+    background-image: url(images/bg_service_top.png);
+    width: 222px;
+    height: 414px;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: 170px;
+    top: 40px;
+}
+.section-gioi-thieu:before {
+    content: "";
+    background-image: url(images/bg_about.png);
+    width: 205px;
+    height: 436px;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: -120px;
+}
+.slide-dich-vu .block-giua {
+    margin-top: -30px;
+}
+.slide-dich-vu .flickity-slider{
+        padding-top: 50px !important;
+        padding-bottom: 40px;
+       
+}
+.slide-dich-vu .flickity-viewport{
+     min-height: 550px !important
+}
+.section-dem span.text-number{
+    font-size: 88px;
+    line-height: 88px;
+    color: #f0dac0;
+    font-weight: 400;
+}
+h3.text-kieu{
+      font-family: 'svn-haptic_scriptregular';
+         color: #daa785;
+             font-weight: 400;
+             font-size: 30px;
+}
+h3.text-kieu-lon{
+      font-family: 'svn-haptic_scriptregular';
+   
+             font-weight: 400;
+             font-size: 40px;
+}
+h3.title-footer{
+    color: #daa785;
+}
+.title_module_main .h2, .title_module_main h2 {
+    font-family: 'svn-haptic_scriptregular';
+    letter-spacing: 0;
+    font-size: 49px;
+    margin: 0;
+    font-weight: 400;
+    display: inline;
+    position: relative;
+    color: #daa785;
+}
+.title_module_main {
+    text-align: center;
+    margin-bottom: 35px;
+    position: relative;
+}
+.title_module_main .h2:before, .title_module_main h2:before {
+    content: "";
+    background-image: url(images/bg_title_1.png);
+    width: 61px;
+    height: 58px;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    left: -60px;
+    top: 7px;
+}
+.title_module_main .h2:after, .title_module_main h2:after {
+    content: "";
+    background-image: url(images/bg_title_2.png);
+    width: 61px;
+    height: 58px;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    right: -70px;
+    top: 7px;
+}
+.title_module_main .h2 span, .title_module_main .h2 a, .title_module_main h2 span, .title_module_main h2 a {
+    color: #daa785;
+}
+span.amount{
+
+    color: red;
+}
+.div-no-padding{
+    padding-bottom: 0px;
+}
+#billing_address_1_field{
+    width: 100%;
+}
+
+/*Màu sắc button*/
+.social-button, .social-icons .button.icon:not(.is-outline), .social-icons .button.icon:hover {
+    background-color: currentColor !important;
+    border-color: currentColor !important;
+}
+.button.facebook,.button.facebook:not(.is-outline), .button.facebook:hover {
+color: #fff;
+    background-color: #446084;
+    border-color: #446084;
+}
+.button.twitter,.button.twitter:not(.is-outline), .button.twitter:hover {
+	color: white !important;
+   background : #2478ba !important;
+    border-color: #2478ba;
+}
+.button.email,.button.email:not(.is-outline), .button.email:hover {
+    color: #fff;
+    background-color: black !important;
+    border-color: black !important;
+}
+.button.pinterest,.button.pinterest:not(.is-outline), .button.pinterest:hover {
+color: #fff !important;
+    background-color: #cb2320  !important;
+    border-color: #cb2320  !important;
+}
+
+.button.google-plus,.button.google-plus:not(.is-outline), .button.google-plus:hover {
+color: #fff !important;
+    background-color: #dd4e31 !important;
+    border-color: #dd4e31  !important;
+}
+.button.linkedin,.button.linkedin:not(.is-outline), .button.linkedin:hover {
+color: #fff !important;
+    background-color: #0072b7 !important;
+    border-color: #0072b7     !important;
+}
+
+.single-date{
+        border-bottom: 1px dashed #ededed;
+}
+h1.entry-title{
+    font-size: 24px !important;
+}
+/*Kết thúc màu sắc*/
+
+
+
+footer.entry-meta {
+
+    border-top: none !important;
+    border-bottom: 1px dashed #ececec !important;
+    
+}
+
+.entry-content img{
+	width: auto !important
+}
+.duong-line {
+    background: rgba(0,0,0,0) url(images/line.png) repeat scroll 0 0;
+    height: 12px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.related-post h7{
+	font-weight: bold;
+	    font-size: 18px;
+    float: left;
+    margin: -8px 20px 0 0;
+}
+
+@media(min-width: 1023px){
+    .section-dem{
+            margin-top: -250px !important;
+    }
+}
+@media(max-width: 855px){
+    .section-dem p{
+        margin-bottom: 0px;
+    }
+    .section-dem span.text-number {
+    font-size: 59px;}
+    .slide-dich-vu .block-giua{
+        margin-top: unset;
+    }
+    .title_module_main .h2, .title_module_main h2{
+            font-size: 37px;
+    }
+    .title_module_main {
+        margin-bottom: 0px !important;
+    }
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
